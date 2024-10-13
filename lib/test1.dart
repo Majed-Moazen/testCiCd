@@ -26,6 +26,7 @@ class _Task1State extends State<Task1> {
         child: MaterialButton(
           minWidth: double.infinity,
           onPressed: () {
+            print('object');
             setState(() {
               index = Random().nextInt(5) + 1;
             });
